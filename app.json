@@ -1,5 +1,27 @@
 {
   "name": "Epicentra",
   "displayName": "Epicentra",
-  "platforms": ["ios", "android"]
+  "expo": {
+    "name": "Epicentra",
+    "slug": "epicentra",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./public/favicon.png",
+    "splash": {
+      "image": "./public/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.cmfroot.epicentra"
+    },
+    "android": {
+      "package": "com.cmfroot.epicentra"
+    }
+  }
 }
