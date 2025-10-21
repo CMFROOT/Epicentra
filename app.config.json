@@ -1,27 +1,27 @@
-{
-  "name": "Epicentra",
-  "displayName": "Epicentra",
-  "expo": {
-    "name": "Epicentra",
-    "slug": "epicentra",
-    "platforms": ["ios", "android", "web"],
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./public/favicon.png",
-    "splash": {
-      "image": "./public/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+import 'dotenv/config';
+
+export default {
+  expo: {
+    name: "Epicentra",
+    slug: "epicentra",
+    version: "1.0.0",
+    platforms: ["ios", "android", "web"],
+    orientation: "portrait",
+    icon: "./public/favicon.png",
+    splash: {
+      image: "./public/splash.png",
+      resizeMode: "contain",
+      backgroundColor: "#ffffff"
     },
-    "updates": {
-      "fallbackToCacheTimeout": 0
+    updates: {
+      fallbackToCacheTimeout: 0
     },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "bundleIdentifier": "com.cmfroot.epicentra"
+    assetBundlePatterns: ["**/*"],
+    ios: {
+      bundleIdentifier: "com.cmfroot.epicentra"
     },
-    "android": {
-      "package": "com.cmfroot.epicentra"
+    android: {
+      package: "com.cmfroot.epicentra"
     }
   }
-}
+};
